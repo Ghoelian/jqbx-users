@@ -12,17 +12,7 @@ import {
     Typography
 } from "@mui/material";
 import {ExpandMore as ExpandMoreIcon} from "@mui/icons-material";
-import * as PropTypes from "prop-types";
-
-function Masonry(props) {
-    return null;
-}
-
-Masonry.propTypes = {
-    container: PropTypes.bool,
-    spacing: PropTypes.number,
-    children: PropTypes.node
-};
+import {Masonry} from "@mui/lab";
 
 function App() {
     const [roomStats, setRoomStats] = useState(null);
